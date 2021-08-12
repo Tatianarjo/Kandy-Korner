@@ -23,6 +23,18 @@ export const EmployeeList = () => {
                             <div className="employee__birthday">
                                 Birthday: { employee.birthday}
                             </div>
+                            <div className="employee__location">
+                                Location: { employee.locationId }
+                            </div>
+                            <div className="employee__manager">
+                                Manager: { employee.manager }
+                            </div>
+                            <div className="employee__fullTime">
+                                Fulltime: { employee.fullTime }
+                            </div>
+                            <div className="employee_hourly">
+                                Hourly: { employee.hourlyRate }
+                            </div>
                         </div>
                     )
                 })
