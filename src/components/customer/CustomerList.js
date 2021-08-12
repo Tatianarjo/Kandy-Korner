@@ -21,7 +21,7 @@ export const CustomerList = () => {
                                 Name: { customer.name }
                             </div>
                             <div className="customer__address">
-                                Birthday: { customer.address}
+                                Address: { customer.address}
                             </div>
                         </div>
                     )
